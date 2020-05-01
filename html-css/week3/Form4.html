@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="user.html" method="GET">
+
+        <header>
+            <img src="image/logo.jpg" class ="img" alt="" height="50px" width="50px">
+        <nav>
+            <ul>
+                <li> <a href="#"> About Us</a></li>
+                <li> <a href="#">Contact</a> </li>
+                <li> <a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+        
+            </header>
+    
+            <h1>Signup to your customtailor.com</h1>
+    
+              
+            <h2> Step 4/4 - Payment</h2>
+            <label for="bar"> Progress:</label>
+            <progress id="bar" value="70" max="100"> 70% </progress>
+            <p> What kind of items are you interested in offers on?</p>
+            <p> Please fill in your payment data</p>
+
+            <div>
+                <label for="name"> Name on card*</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            
+            <div>
+                    <label for="card">Card type*:</label>
+                    <select id="card" name="usercard" required>
+                        <option value="visa">Visa</option>
+                        <option value="mc">Mastercard</option>
+                        <option value="amex">American Express</option>
+                    </select>
+
+                    <label for="fname"> First Name</label>
+                    <input type="text" name="fname" id="fname" required>
+            </div>
+
+            <div>
+
+                <label for="month">Expiry Month:</label>
+                <input type="number" name="month" id="month">
+
+                <label for="year">Expiry Year:</label>
+                <input type="number" name="year" id="year">
+                  
+            </div>
+
+            <div>
+                <label for="cvv">CVV</label>
+                <input type="cvv" name="cvv" id="cvv">
+            </div>
+            <div class="button">
+                <button type="submit">Next Step</button>
+             </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="user.html" method="GET">
+        <header>
+        <img  src="image/logo.jpg" class ="img" alt="" height="50px" width="50px">
+    <nav>
+        <ul>
+            <li> <a href="#"> About Us</a></li>
+            <li> <a href="#">Contact</a> </li>
+            <li> <a href="#">FAQ</a></li>
+        </ul>
+    </nav>
+    
+        </header>
+
+        <h1>Signup to your customtailor.com</h1>
+
+        <p>We cant wait to improve your life-style and gain the attention from people around you! <br>
+        signup beluw to save upto 70% apparel, handbags and cosmetics.Our agents are busy
+        picking the best offers that match your preferences and style. Every week we will send you a 
+        hand picked selection- We just need to know few details about your first...       </p>
+
+        <h2> Step 1/4 - Tell us who you are</h2>
+
+        <label for="bar"> Progress:</label>
+        <progress id="bar" value="10" max="100"> 25% </progress>
+
+        <p>Nice to meet you. Let's spend a minute together to get to know each other? Please enter the following</p>
+
+        <div>
+            <label for="fname">First Name*</label>
+            <input type="text" name="fname" id="fname" required>
+            <label for="lname">Last Name*</label>
+            <input type="text" name="lname" id="lname" required>
+        </div>   
+ 
+        <div class="cname">
+
+            <label for="country"> Country</label>
+            <select name="country" id="country" placeholder="">
+            <option value="none" selected disabled hidden></option>
+            <option value="America">America</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Canada">Canada</option>
+            <option value="Denmark">Denmark </option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="France">France</option>
+            <option value="Germany">Germany</option>
+            <option value="Holand">Holand</option>
+            <option value="India">India</option>
+            <option value="Japan">Japan</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="address">Street Address*</label>
+            <input type="text" name="address" id="address" required>
+            <label for="pcode">Post Code*</label>
+            <input type="text" name="pcode" id="pcode" pattern="[0-9]*" required>
+
+        </div> 
+
+         <div>
+            
+            <label for="profile">Profile Description</label>
+             <textarea name="profile" id="profile" cols="50" rows="10"></textarea>
+            <p class="desc"> Please provide a short description of yourself to be displayed on our social community pages</p>
+        </div> 
+
+        Use the same address for billing and shipping? Uncheck below to fill out a seperate shipping address. <br>
+        
+        <label> Shipping Address</label>
+​        <input type="checkbox" id="saddress">
+​
+    <div class="control-me">
+
+        <div>
+        <label for="fname">First Name*</label>
+        <input type="text" name="fname" id="fname" required>
+        <label for="lname">Last Name*</label>
+        <input type="text" name="lname" id="lname" required>
+        </div>   
+
+        <div class="cname">
+
+            <label for="country"> Country</label>
+         <select name="country" id="country" placeholder="">
+            <option value="none" selected disabled hidden></option>
+            <option value="America">America</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Canada">Canada</option>
+            <option value="Denmark">Denmark </option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="France">France</option>
+            <option value="Germany">Germany</option>
+            <option value="Holand">Holand</option>
+            <option value="India">India</option>
+            <option value="Japan">Japan</option>
+         </select>
+        </div>
+
+        <div>
+           <label for="address">Street Address*</label>
+            <input type="text" name="address" id="address" required>
+            <label for="pcode">Post Code*</label>
+            <input type="text" name="pcode" id="pcode" max="4" pattern="[0-9]*" required>
+
+        </div> 
+
+    </div>
+        
+        <button type="submit"><a href="Form2.html">Next Step</a></button>
+          
+    </form>
+</body>
+</html>

@@ -1,0 +1,90 @@
+form{
+       
+        margin: 0 auto;
+        width: 50%;
+        padding: 1em;
+        border: 1px solid #CCC;
+        text-align: justify;
+}
+header{
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    float: right;
+  }
+
+  li{
+      display: inline;
+      padding: 10px;
+   
+  }
+
+  .img{
+     margin-left: 10px;
+     margin-top: 5px;
+    
+  }
+   
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    padding: 1%;
+    font-weight: bold;
+}
+
+textarea{
+    vertical-align: top;
+}
+.desc{
+    display: block;
+    align-self: start;
+}
+
+/* hide the content below if button is checked*/
+
+#saddress:checked  ~ .control-me{
+    display: none;
+  }
+  
+ 
+ button {
+    padding      : 15px;
+    border       : 2px solid #333;
+    border-radius: 5px;
+    background-color: cadetblue;
+    margin-left  : 600px;
+    margin-top   : 10px;
+   
+  }
+
+  /* images in Form 3*/
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    
+   
+  }
+
+  .column {
+    display: flex;
+    flex: 50%;
+    padding:  4px;
+  }
+
+ 
+  .chkbox{
+     
+     padding-right: 5px;
+
+  }

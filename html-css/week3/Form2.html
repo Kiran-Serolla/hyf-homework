@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form2</title>
+</head>
+<body>
+    <form action="user.html" method="GET">
+
+        <header>
+            <img src="image/logo.jpg" class ="img" alt="" height="50px" width="50px">
+        <nav>
+            <ul>
+                <li> <a href="#"> About Us</a></li>
+                <li> <a href="#">Contact</a> </li>
+                <li> <a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+        
+            </header>
+    
+            <h1>Signup to your customtailor.com</h1>
+    
+            <h2> Step 2/4 - how can we reach you</h2>
+    
+            <label for="bar"> Progress:</label>
+            <progress id="bar" value="50" max="100"> 50% </progress> <br>
+
+            We will probably need to stay in touch somehow.Let us know how we can reach you.
+
+            <div>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" required>
+            </div>   
+
+            <div>
+                <label for="pwd">Password*</label>
+                <input type="password" name="pwd" id="pwd" minlength="10" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])*$" title="Please match the required format" required>
+
+            </div>
+            <div>
+                <label for="repwd">Reenter Password*</label>
+                <input type="password" name="repwd" id="repwd" minlength="10" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])*$" required>
+            </div>
+            I want to Signup for the newsletter
+            <div>
+                <label for="wnews">Weekly News</label>
+                <input type="radio" name="news" id="wnews">
+
+                <label for="mnews">Monthly News</label>
+                <input type="radio" name="news" id="mnews">
+
+                <label for="nnews">Dont send me news</label>
+                <input type="radio" name="news" id="nnews">
+            </div>
+
+            <button type="submit"><a href="Form3.html">Next Step</a></button>
+            
+    </form>
+
+    
+</body>
+</html>
