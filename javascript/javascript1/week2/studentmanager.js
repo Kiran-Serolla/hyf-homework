@@ -7,10 +7,10 @@ function addStudentToClass(studentName) {
   else if (class07Students.includes(studentName)) {
     console.log(studentName + "already exists");
   } // if the student name is "queen", push
-  else if (studentName === "Queen") {
+  else if (studentName.toLowerCase() === "queen") {
     class07Students.push(studentName);
   } // checcking for empty string
-  else if (studentName == "") {
+  else if (studentName.trim() === "") {
     console.log("You cannot add an empty string");
   } else {
     class07Students.push(studentName);
@@ -24,4 +24,10 @@ addStudentToClass("Julie");
 addStudentToClass("Andy");
 addStudentToClass("David");
 addStudentToClass("Queen");
+addStudentToClass("queen");
 console.log(class07Students);
+
+function getNumberOfStudents() {
+  return class07Students.length;
+}
+console.log(" There are" + getNumberOfStudents() + " students in the class");
