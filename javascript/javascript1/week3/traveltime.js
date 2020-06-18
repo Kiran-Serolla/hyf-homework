@@ -5,7 +5,10 @@ const travelInformation = {
 
 function calculateTime(travelInformation) {
   const time = travelInformation.destinationDistance / travelInformation.speed;
-  return time;
+  const hours = Math.floor(time);
+  const minutes = Math.round((time - hours) * 60);
+  return `${hours} hours ${minutes} minutes`;
 }
+
 let travelTime = calculateTime(travelInformation);
-console.log(travelTime); // 4 hours and 42 minutes
+console.log(travelTime);
