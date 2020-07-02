@@ -1,4 +1,4 @@
-const movies = [
+/* const movies = [
   { title: "'71", year: 2014, rating: 7.2, votes: 41702, running_times: 5940 },
 
   {
@@ -156,7 +156,7 @@ const movies = [
     votes: 302809,
     running_times: 5640,
   },
-];
+]; */
 // movies with short title
 const shortTitle = movies.filter((name) => name.title.length < 7);
 //console.log("movies with short title : \n", shortTitle);
@@ -175,7 +175,7 @@ console.log(movieCount.length);
 
 // Calculating rating
 
-const arrayWithNewTag = movies.map((ratingValue) => {
+const ratingTag = movies.map((ratingValue) => {
   if (ratingValue.rating >= 7) {
     ratingValue.tag = "Good";
   } else if (ratingValue.rating >= 4 && ratingValue.rating < 7) {
@@ -187,7 +187,12 @@ const arrayWithNewTag = movies.map((ratingValue) => {
 });
 //console.log(movies);
 
-const ratingArray = movies
+const moviesRating = movies
   .filter((higherRating) => higherRating.rating > 6)
   .map((higherRating) => higherRating.rating);
 console.log(ratingArray);
+console.log(movies[0]);
+const eightiesMovies = movies.filter(
+  (movie) => movie.year >= 1980 && movie.year <= 1989
+);
+console.log(eightiesMovies);
