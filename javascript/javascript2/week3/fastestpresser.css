@@ -1,0 +1,22 @@
+.heading {
+  text-align: center;
+}
+.players {
+  margin: auto;
+  width: 50%;
+  height: 50px;
+}
+
+#value {
+  margin: 10px;
+}
+
+#click {
+  margin: 10px;
+}
+#player1 {
+  margin-left: 5px;
+}
+#player2 {
+  margin-left: 150px;
+}
