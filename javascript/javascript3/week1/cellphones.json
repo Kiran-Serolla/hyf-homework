@@ -1,0 +1,32 @@
+
+'[{"Brand name": "Samsung",
+    "Model": "Galaxy M01s",
+    "OS" : "Android 9 pie",
+    "colors": ["Light Blue","Grey"]
+    
+},
+{
+    "Brand name": "iQOO",
+    "Model": "U1",
+    "OS": "Android 10",
+    "colors": ["Start Blue","Sunny frost white"]
+},
+{
+    "Brand name": "Motorola",
+    "Model": "Moto G5G plus",
+    "OS": "Android 10",
+    "colors": [
+        "Surfing Blue",
+        "Black"
+    ]
+},
+{
+    "Brand name": "Hauwei",
+    "Model": "Enjoy20Pro",
+    "OS": "Android 10",
+    "colors": [
+        "Dark Blue",
+        "Galaxy Silver","Magic Night Black"
+    ]
+}
+]' 
