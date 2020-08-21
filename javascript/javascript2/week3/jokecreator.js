@@ -6,7 +6,7 @@ const logBadJoke = () => {
 };
 
 function jokeCreator(shouldTellFunnyJoke, logFunnyJoke, logBadJoke) {
-  if ((shouldTellFunnyJoke = true)) {
+  if (shouldTellFunnyJoke) {
     logFunnyJoke();
   } else {
     logBadJoke();

@@ -4,4 +4,4 @@
 CREATE INDEX sname ON student (name);
 -- Adding new column to class table
 ALTER TABLE class
-	ADD status ENUM ( 'not-started', 'ongoing', 'finished') NOT NULL;
+	ADD status ENUM ( 'not-started', 'ongoing', 'finished') NOT NULL default 'not-started';

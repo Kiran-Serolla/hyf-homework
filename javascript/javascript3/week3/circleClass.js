@@ -25,18 +25,4 @@ class Circle {
 // instances of class
 
 /* const c1 = new Circle(150, 150, 50, 0, 2 * Math.PI, "brown");
-c1.draw();
-
-const c2 = new Circle(250, 250, 50, 0, 2 * Math.PI, "green");
-c2.draw();
-
-const c3 = new Circle(400, 250, 100, 0, 2 * Math.PI, "yellow");
-c3.draw(); */
-
-/* setInterval(function () {
-  for (var i = 0; i < 10; i++) {
-    c1.draw();
-    console.log("circle drawn");
-  }
-}, 100);
- */
+c1.draw(); */

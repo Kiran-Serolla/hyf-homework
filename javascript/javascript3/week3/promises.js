@@ -49,5 +49,6 @@ const promise3 = fetch(
     li3.innerHTML = ` URL : ${repo3.items[0].owner.url}`;
     ul3.appendChild(li3);
   });
-Promise.all([promise1, promise2, promise3]);
-console.log("Resolved all promises at once");
+Promise.all([promise1, promise2, promise3]).then(() => {
+  console.log("Resolved all promises at once");
+});
