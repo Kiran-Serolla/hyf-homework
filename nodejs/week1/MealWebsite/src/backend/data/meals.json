@@ -1,0 +1,52 @@
+[
+  {
+    "id": 26,
+    "title": "CHICKEN FRIED RICE",
+    "description": "Rice, with chicken,vegetables and spicy sauce",
+    "location": "Bagsvørd",
+    "when": "2020-09-10 00:00:00",
+    "max_reservations": 50,
+    "price": 59,
+    "created_date": "2020-08-16"
+  },
+  {
+    "id": 11,
+    "title": "Pasta Salad",
+    "description": "Pasta with red pesto, grilled chicken and iceberg ",
+    "location": "Ishoj",
+    "when": "2020-08-25 00:00:00",
+    "max_reservations": 60,
+    "price": 45,
+    "created_date": "2020-07-17"
+  },
+  {
+    "id": 21,
+    "title": "Vegan meat balls",
+    "description": "meatballs made with soya ",
+    "location": "Hellerup",
+    "when": "2020-08-30 00:00:00",
+    "max_reservations": 30,
+    "price": 35,
+    "created_date": "2020-08-14"
+  },
+  {
+    "id": 8,
+    "title": "Butter naan with butter chicken",
+    "description": "stone oven baked flat bread with chicken in silky buttersauce",
+    "location": "Valby",
+    "when": "2020-08-12 00:00:00",
+    "max_reservations": 25,
+    "price": 80,
+    "created_date": "2020-08-16"
+  },
+  {
+    "id": 9,
+    "title": "Chicken schezwan noodles",
+    "description": "spicy chicken noodles with schezwan sauce",
+    "location": "Brøndby",
+    "when": "2020-08-12 00:00:00",
+    "max_reservations": 90,
+    "price": 50,
+    "created_date": "2020-07-16"
+  }
+]
