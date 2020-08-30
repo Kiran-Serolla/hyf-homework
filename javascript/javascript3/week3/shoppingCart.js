@@ -15,11 +15,13 @@ class ShoppingCart {
   }
 
   removeProduct(product) {
-    this.products.splice(this.products.indexOf(product));
+    this.products.splice(this.products.indexOf(product), 1);
   }
 
   searchProduct(productName) {
-    return this.products.filter((product) => product.name == productName);
+    return this.products.filter(
+      (product) => product.name.toLowerCase() == productName.toLowerCase()
+    );
   }
 
   getTotal() {
@@ -27,6 +29,7 @@ class ShoppingCart {
     this.products.forEach((product) => {
       total += product.price;
     });
+    return total;
   }
 
   renderProducts() {

@@ -10,7 +10,7 @@ input.addEventListener("input", () => {
 
 function startGame() {
   let player1Count = 0;
-  document.addEventListener("keydown", (event) => {
+  document.addEventListener("keypress", (event) => {
     if (event.keyCode == 83) {
       player1Count++;
       player1.innerHTML = `${player1Count}`;
