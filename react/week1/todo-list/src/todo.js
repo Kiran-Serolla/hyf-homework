@@ -1,13 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 
 const ToDo = (props) => {
      
-    return(<div>
-    {props.description}  
-    {props.deadline}
-    
+    return(
+    <div className="list">
+             <ul>
+            <li>
+            {props.description}  --
+            {props.deadline}
+            </li>
+        </ul>
+     
+          
     </div>)
   
 }

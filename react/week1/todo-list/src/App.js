@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ToDo from './todo';
 
@@ -14,10 +13,10 @@ function App() {
   return (
     
     <div className="App">
-       <h1>ToDo list</h1>
-                 
+       <h1>ToDo list</h1>               
        {todo.map(list => {
-       return(<ToDo description ={list.description} deadline= {list.deadline}/>);
+       return(<ToDo description ={list.description}
+         deadline= {list.deadline}/>);
          
         })}
     </div>
