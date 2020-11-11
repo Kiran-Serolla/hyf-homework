@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  
+}
+
+#to-do{
+  background-color: rgb(193, 123, 221);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#to-do input{
+  background-color: rgb(194, 238, 93);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: rgb(14, 13, 13);
+}
+
+#to-do input ::placeholder{
+  color: blanchedalmond;
+}
+#to-do button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(80, 219, 201);
+  cursor: pointer;
+  font-weight: bolder;
+}
