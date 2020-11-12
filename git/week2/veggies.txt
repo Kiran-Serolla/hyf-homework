@@ -1,0 +1,5 @@
+squash
+cabbage
+cauliflower
+carrot
+potato
