@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "good",
+      "description": "nice meal for the price",
+      "stars": 4,
+      "created_date": "2020-08-15",
+      "meal_id": 1
+    },
+    {
+      "id": 3,
+      "title": "tasty",
+      "description": "It was a tasty meal",
+      "stars": 6,
+      "created_date": "2020-08-15",
+      "meal_id": 7
+    },
+    {
+      "id": 4,
+      "title": "good",
+      "description": "good meal",
+      "stars": 4,
+      "created_date": "2020-08-18",
+      "meal_id": 3
+    },
+    {
+      "id": 5,
+      "title": "not verygood",
+      "description": "could have been better",
+      "stars": 0,
+      "created_date": "2020-08-15",
+      "meal_id": 1
+    },
+    {
+      "id": 9,
+      "title": "very tasty",
+      "description": "very tasty meal",
+      "stars": 4,
+      "created_date": "2020-08-15",
+      "meal_id": 1
+    }
+  ]

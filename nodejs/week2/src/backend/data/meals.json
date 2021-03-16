@@ -1,0 +1,82 @@
+[
+    {
+        "id" : 1,
+        "title" : "Indian food in the summer",
+        "maxNumberOfGuests" : 5,
+        "description" : "A nice night out eating delicious indian food",
+        "createdAt" : "2019/12/7 14:34",
+        "price" : 67
+    },
+
+    {
+          "id": 2,
+          "title": "OMELET MED BACON",
+          "description": "Serveres med kartofler og salat ",
+          "location": "Baneg\u00e5rdsvej,2620",
+          "when": "2020-08-30 12:20:00.000000",
+          "max_reservations": 10,
+          "price": 85,
+          "created_date": "2020-08-11"
+        },
+        {
+          "id": 3,
+          "title": "STJERNESKUD ",
+          "description": " Stegt og dampet fiskefilet, rejer og caviar",
+          "location": "Hvidovresvej,2605",
+          "when": "2020-08-29 12:20:00.000000",
+          "max_reservations": 10,
+          "price": 95,
+          "created_date": "2020-08-11"
+        },
+        {
+          "id": 4,
+          "title": "INSALATA DI SALMONE",
+          "description": " ",
+          "location": "Blandet salat med laks og avocado",
+          "when": "2020-08-28 12:20:00.000000",
+          "max_reservations": 10,
+          "price": 65,
+          "created_date": "2020-08-11"
+        },
+        {
+          "id": 5,
+          "title": "ENTRECOTE ALLA GRIGLIA",
+          "description": "Grillet entrecote med bearnaisesauce",
+          "location": "nybrovej,2010",
+          "when": "2020-08-27 12:20:00.000000",
+          "max_reservations": 10,
+          "price": 45,
+          "created_date": "2020-08-11"
+        },
+        {
+          "id": 6,
+          "title": "Stegetgrønt",
+          "description": "smagefuld steget grøntsager ",
+          "location": "Hovedvejen,2120",
+          "when": "2020-08-26 12:20:00.000000",
+          "max_reservations": 10,
+          "price": 55,
+          "created_date": "2020-08-11"
+        },
+        {
+          "id": 7,
+          "title": "Kødbøller i karry ",
+          "description": "kødboller laved ad lamekød i karrysauce med ris",
+          "location": "fredriksundsvej,2020",
+          "when": "2020-08-25 12:20:00.000000",
+          "max_reservations": 10,
+          "price": 99,
+          "created_date": "2020-08-11"
+        },
+        {
+          "id": 8,
+          "title": "Japanisk tallakern",
+          "description": " Japanese meal with a variety of dishes",
+          "location": "Thomas Laubs Gade 18, st. tv",
+          "when": "2020-08-18 18:00:00.000000",
+          "max_reservations": 2,
+          "price": 10,
+          "created_date": "2020-08-18"
+        }
+      
+]
