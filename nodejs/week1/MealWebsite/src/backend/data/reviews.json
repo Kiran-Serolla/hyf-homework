@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "numberOfStars": 3,
+    "content": "Best meal ever",
+    "mealId": 21,
+    "createdAt": 12345
+  },
+  {
+    "id": 2,
+    "numberOfStars": 4,
+    "content": "Amazing experience",
+    "mealId": 9,
+    "createdAt": 446654
+  },
+
+  {
+    "id": 3,
+    "numberOfStars": 5,
+    "content": "Most delicious meal i had in recent times",
+    "mealId": 8,
+    "createdAt": 49423
+  },
+
+  {
+    "id": 2,
+    "numberOfStars": 4,
+    "content": "fresh taste",
+    "mealId": 11,
+    "createdAt": 25896
+  }
+]
